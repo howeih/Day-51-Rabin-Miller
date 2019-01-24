@@ -26,8 +26,8 @@ run:
 ```
 fn main() {
     for i in 0..100000000 {
-        let is = prime(3333);
-        if is {
+        let is_prime = prime(i);
+        if is_prime {
             print!("{} ", i);
         }
     }
